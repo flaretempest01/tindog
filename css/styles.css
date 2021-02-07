@@ -161,12 +161,19 @@ p {
 }
 
 @media (max-width:1500px) {
+
+  .title-text{
+    text-align: center;
+    padding-bottom: 5%;
+  }
+
   #title{
     text-align: center;
   }
 
   .iphone-photo {
     transform: rotate(0);
+    position: static;
   }
 
 }
